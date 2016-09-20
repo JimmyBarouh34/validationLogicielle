@@ -38,7 +38,7 @@ public class ZooTest {
 	}
 
 	@Test
-	public void test() {
+	public void testNbElements() {
 		assertEquals( zoo.getAnimals().size(), gardien.getAnimals().size());
 	}
 }
