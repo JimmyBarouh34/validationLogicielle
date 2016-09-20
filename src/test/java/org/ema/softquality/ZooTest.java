@@ -25,11 +25,11 @@ public class ZooTest {
 		zoo = new Zoo();
 		gardien = new Gardien();
 		
-		animals = new ArrayList<Animal>();
+		animals = new ArrayList<>();
 		animals.add(new Chien("doggo", "wouaf"));
 		animals.add(new Lion("simbad", "wouarg"));
 		
-		listeRef = new ArrayList<Animal>();
+		listeRef = new ArrayList<>();
 		listeRef.add(new Chien("doggo", "wouaf"));
 		listeRef.add(new Lion("simbad", "wouarg"));
 		
