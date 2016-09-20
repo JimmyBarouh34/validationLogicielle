@@ -16,12 +16,12 @@ public class Zoo {
 
 	public static void main(String[] args) {
 		List<Animal> animals = new ArrayList<Animal>();
-		animals.add(new Chien());
-		animals.add(new Lion());
+		animals.add(new Chien("doggo", "wouaf"));
+		animals.add(new Lion("simbad", "wouarg"));
 		
 		List<Animal> animalsGardien = new ArrayList<Animal>();
-		animals.add(new Chien());
-		animals.add(new Lion());
+		animalsGardien.add(new Chien("doggo", "wouaf"));
+		animalsGardien.add(new Lion("simbad", "wouarg"));
 		
 		Gardien gardien1 = new Gardien();
 		gardien1.setAnimals(animalsGardien);
